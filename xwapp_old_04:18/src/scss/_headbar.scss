@@ -1,0 +1,51 @@
+
+// 导航条背景
+$bj: #343b4b;
+// 导航条高度
+$heightBar: 50.4px;
+// user图片的高度
+$userImg: 32px;
+// backBtn 图片宽高度
+$backWidth: 10.4px; 
+$backheight: 20px;
+// applyBtn 图片高度
+$applyImg: 19.2px; 
+// 两边的 margin 
+$margin: 16px;
+
+.headbar{
+	width: 100%;
+	height: $heightBar;
+	background: $bj;
+	z-index: 170;
+	.headbarTitle{
+		color: #eceef3;
+		font-size: 20px;
+		flex: 2;
+	}
+}
+.userBtn{
+	@extend .flex-1;
+	@extend .flex-row-aic;
+	margin-left: $margin;
+	img{
+		width: $userImg;
+		height: $userImg;
+		padding-right: 8px;
+	}
+}
+.backBtn{
+	@extend .userBtn;
+	img{
+		width: $backWidth;
+		height: $backheight;
+	}
+}
+.applyBtn{
+	margin-right: $margin;
+	img{
+		width: $applyImg;
+		height: $applyImg;
+		padding: 8px 0 8px 12px;
+	}
+}

@@ -1,0 +1,39 @@
+$active: $activeColor;
+
+.scrollBtn{
+	width: 100%;
+	height: .48rem;
+	font-size: .17rem;
+	color: #858383;
+	position: relative;
+	background: #fff;
+	.active{
+		color: $active;
+	}
+	img{
+		width: .24rem;
+		height: .24rem;
+		margin-right: .24rem;
+	}
+	.footBar{
+		height: .02rem;
+		width: 50%;
+		background: $active;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		transition: left .3s linear;
+	}
+}
+
+.scrollPage{
+	width: 200%;
+	height: 100%;
+	.pageItem{
+		height: 100%;
+		overflow: auto;
+	}
+}
+.scrollPage.transition{
+	transition: transform .3s;
+}

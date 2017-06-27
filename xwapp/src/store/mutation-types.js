@@ -1,0 +1,1 @@
+export const ANIMATE_BACK = 'ANIMATE_BACK';

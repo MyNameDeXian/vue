@@ -1,0 +1,31 @@
+.applyAlertBox{
+	width: 100%;
+	height: 100%;
+	.applyAlert{
+		font-size: .17rem;
+		color: #858383;
+		transition: right .3s;
+		width: 1.84rem;
+		height: 1.18rem;
+		background: url('./img/alert/img_customer_beijing.png') no-repeat;
+		background-size: 100% 100%;
+		top: .385rem;
+		right: .09rem;
+		z-index: 200;
+		img{
+			width: .24rem;
+			height: .24rem;
+			margin-right: .24rem;
+		}
+		.item{
+			margin: 0px .14rem;
+			padding: 0px .1rem;
+		}
+		.top{
+			margin-top: .05rem;
+		}
+		.active{
+			color: $activeColor;
+		}
+	}
+}

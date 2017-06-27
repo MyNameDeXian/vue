@@ -1,0 +1,42 @@
+
+// tabbar 宽高
+$height: .57rem;
+$width: 100%;
+
+// tabbar 背景颜色
+$bj: #f8f8f8;
+
+// 图片的宽高
+$imgH: .22rem;
+$imgW: .22rem;
+
+// 默认字体颜色
+$font-color: #8b8b8b;
+// 获得焦点的字体颜色
+$active: #d62823;
+$font-size: .11rem;
+// 字体与图片的距离
+$title-img: .05rem;
+
+
+.tabbar{
+	z-index: 100;
+	width: $width;
+	height: $height;
+	background: $bj;
+	font-color: $font-color;
+	@extend .border-b;
+	img{
+		width: $imgW;
+		height: $imgH;
+		margin-top: .05rem;
+		margin-bottom: $title-img;
+	}
+	p{
+		font-size: $font-size;
+		color: $font-color; 
+	}
+	.active{
+		color: $active;
+	}
+}

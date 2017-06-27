@@ -1,0 +1,49 @@
+// headbar 高度
+$barHeight: $headbarHeigth;
+// 导航条背景颜色
+$barBj: #343b4b;
+// 两边的距离
+$horizontal: .16rem;
+
+.headbar{
+	width: 100%;
+	height: $barHeight;
+	font-size: .2rem;
+	background: $barBj;
+	.title{
+		color: #fff;
+	}
+	.userBtn{
+		width: .32rem;
+		height: .32rem;
+		margin-left: $horizontal;
+		padding-right: .12rem;
+	}
+	.backBtn{
+		width: .11rem;
+		height: .2rem;
+		padding: .08rem $horizontal;
+	}
+	.applyBtn{
+		width: .2rem;
+		height: .2rem;
+		padding: .1rem 0px .1rem .1rem;
+		margin-right: $horizontal;
+	}
+	.m-r{
+		margin-right: .3rem;
+	}
+	.deleteBtn{
+		width: .16rem;
+		height: .2rem;
+		@extend .m-r;
+	}
+	.modifyBtn{
+		width: .2rem;
+		height: .19rem;
+		@extend .m-r;
+	}
+}
+
+
+

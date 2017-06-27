@@ -1,0 +1,19 @@
+// 公共样式
+@import '../../../scss/variables';
+@import '../../../scss/common';
+@import '../../../scss/flexStyle';
+@import '../../../scss/position';
+
+// 组件
+@import './components/lists/lists';
+@import './components/bar/head/headbar';
+@import './components/bar/tab/tabbar';
+@import './components/scroll/scrollBtn';
+@import './components/title/title';
+@import './components/forms/forms';
+@import './components/alert/drawer';
+@import './components/alert/applyAlert/applyAlert';
+@import './components/alert/loading/loading';
+
+
+// 页面

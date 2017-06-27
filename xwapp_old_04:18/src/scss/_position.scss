@@ -1,0 +1,34 @@
+// position 定位样式
+.p-a{
+	position: absolute;
+}
+.p-f{
+	position: fixed;
+}
+.p-r{
+	position: relative;
+}
+.p-f-b{
+	bottom: 0px;
+	@extend .p-f;
+}
+.p-a-b{
+	bottom: 0px;
+	@extend .p-a;
+}
+.p-a-r{
+	right: 0px;
+	@extend .p-a;
+}
+.p-a-r-b{
+	.right: 0px;
+	@extend .p-a-b;
+}
+.p-f-t{
+	top: 0px;
+	@extend .p-f;
+}
+.p-a-t{
+	top: 0px;
+	@extend .p-a;
+}

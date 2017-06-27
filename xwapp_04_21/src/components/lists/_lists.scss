@@ -1,0 +1,33 @@
+// listTitle 高度
+$titleHeight: .56rem;
+// listRow 高度
+$rowHeight: .56rem;
+
+.listTitle{
+	height: $titleHeight;
+	background: #c0e2fa;
+	margin-top: .12rem;
+	div{
+		color: #383c44;
+		font-size: .18rem;
+		@extend .flex-row-center;
+	}
+}
+.listCtr{
+	overflow: auto;
+	background: $bjColor;
+	.listRow{
+		height: $rowHeight;
+		background: #fff;
+		@extend .bd-b;
+		// transition: background-color .8s;
+		// &:hover{
+		// 	background-color: #e7ebee;
+		// }
+		
+		div{
+			@extend .flex-row-center;
+			color: #64666a;
+		}
+	}
+}

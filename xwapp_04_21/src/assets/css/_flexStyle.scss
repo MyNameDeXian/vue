@@ -1,0 +1,109 @@
+
+ // 编写flex 通用的布局方式，方便以后调用
+ // 2017 - 04 -08 李德贤
+ 
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-col{
+	display: flex;
+	flex-direction: column;
+}
+
+// justify-content 主轴方向
+// 两端对齐，项目之间的间隔都相等
+.flex-jc-sb{
+	justify-content: space-between;
+}
+
+// 每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍
+.flex-jc-sa{
+	justify-content: space-around;
+}
+
+// 水平居中，主轴方向居中
+.flex-jc-center{
+	justify-content: center;
+}
+
+// 右对齐
+.flex-jc-fe{
+	justify-content: flex-end;
+}
+
+// 交叉轴的中点对齐，如： row时 垂直方向
+.flex-ai-center{
+	align-items: center;
+}
+
+// 交叉轴的终点对齐。
+.flex-ai-fe{
+	align-items: flex-end;
+}
+// row + 垂直水平方向居中
+.flex-row-center{
+	@extend .flex-row;
+	@extend .flex-jc-center;
+	@extend .flex-ai-center;
+}
+.flex-row-end{
+	@extend .flex-row;
+	@extend .flex-jc-fe;
+	@extend .flex-ai-center;
+}
+// row + 垂直方向居中
+.flex-row-aic{
+	@extend .flex-row;
+	@extend .flex-ai-center;
+}
+// row + 水平方向居中
+.flex-row-jcc{
+	@extend .flex-row;
+	@extend .flex-jc-center;
+}
+
+// col + 垂直水平方向居中
+.flex-col-center{
+	@extend .flex-col;
+	@extend .flex-jc-center;
+	@extend .flex-ai-center;
+}
+.flex-col-aic{
+	@extend .flex-col;
+	@extend .flex-ai-center;	
+}
+// 主轴方向两端对齐，项目之间的间隔都相等
+// 交叉轴方向居中
+.flex-sb-c{
+	@extend .flex-jc-sb;
+	@extend .flex-ai-center;
+}
+// 每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍
+// 交叉轴方向居中
+.flex-sa-c{
+	@extend .flex-jc-sa;
+	@extend .flex-ai-center;
+}
+
+// 占满剩余空间
+.flex-1{
+	flex: 1;
+}
+.flex-2{
+	flex: 2;
+}
+// align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性
+.flex-as-fe{
+	align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+

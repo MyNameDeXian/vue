@@ -1,0 +1,23 @@
+$tabHeight: $tabbarHeight;
+
+.tabbar{
+	width: 100%;
+	height: $tabHeight;
+	background: #f8f8f8;
+	border-top: 1px solid #cdcdcd;
+}
+
+.tabItem{
+	img{
+		width: .22rem;
+		height: .22rem;
+		margin: .03rem 0 .07rem;
+	}
+	p{
+		font-size: .1rem;
+		color: #8b8b8b;
+	}
+	.active{
+		color: #d62823;
+	}
+}

@@ -1,0 +1,207 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.bd-b, .drawer .drawer-content div, .listCtr .listRow {
+  border-bottom: 1px solid #cdcdcd; }
+
+.h-100 {
+  height: 100%; }
+
+.w-100 {
+  width: 100%; }
+
+.right-shadow {
+  box-shadow: 0px 0px 30px #666; }
+
+.flex-row, .flex-row-center, .listTitle div, .listCtr .listRow div, .flex-row-aic, .userBtn, .backBtn, .drawer .drawer-content div, .flex-row-jcc {
+  display: flex;
+  flex-direction: row; }
+
+.flex-col, .flex-col-center, .flex-col-aic {
+  display: flex;
+  flex-direction: column; }
+
+.flex-jc-sb, .flex-sb-c {
+  justify-content: space-between; }
+
+.flex-jc-sa, .flex-sa-c {
+  justify-content: space-around; }
+
+.flex-jc-center, .flex-row-center, .listTitle div, .listCtr .listRow div, .flex-row-jcc, .flex-col-center {
+  justify-content: center; }
+
+.flex-jc-fe {
+  justify-content: flex-end; }
+
+.flex-ai-center, .flex-row-center, .listTitle div, .listCtr .listRow div, .flex-row-aic, .userBtn, .backBtn, .drawer .drawer-content div, .flex-col-center, .flex-col-aic, .flex-sb-c, .flex-sa-c {
+  align-items: center; }
+
+.flex-ai-fe {
+  align-items: flex-end; }
+
+.flex-1, .userBtn, .backBtn {
+  flex: 1; }
+
+.flex-as-fe {
+  align-self: flex-end; }
+
+.p-a, .p-a-b, .p-a-r-b, .p-a-r, .p-a-t, .drawer {
+  position: absolute; }
+
+.p-f, .p-f-b, .p-f-t {
+  position: fixed; }
+
+.p-r {
+  position: relative; }
+
+.p-f-b {
+  bottom: 0px; }
+
+.p-a-b, .p-a-r-b {
+  bottom: 0px; }
+
+.p-a-r {
+  right: 0px; }
+
+.p-a-r-b {
+  .right: 0px; }
+
+.p-f-t {
+  top: 0px; }
+
+.p-a-t, .drawer {
+  top: 0px; }
+
+.tabbar {
+  z-index: 100;
+  width: 100%;
+  height: 57.6px;
+  background: #f8f8f8;
+  font-color: #8b8b8b;
+  border: .5px solid #cdcdcd; }
+  .tabbar img {
+    width: 22.4px;
+    height: 22.4px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .tabbar p {
+    font-size: 10.4px;
+    color: #8b8b8b; }
+  .tabbar .active {
+    color: #d62823; }
+
+.headbar {
+  width: 100%;
+  height: 50.4px;
+  background: #343b4b;
+  z-index: 170; }
+  .headbar .headbarTitle {
+    color: #eceef3;
+    font-size: 20px;
+    flex: 2; }
+
+.userBtn, .backBtn {
+  margin-left: 16px; }
+  .userBtn img, .backBtn img {
+    width: 32px;
+    height: 32px;
+    padding-right: 8px; }
+
+.backBtn img {
+  width: 10.4px;
+  height: 20px; }
+
+.applyBtn {
+  margin-right: 16px; }
+  .applyBtn img {
+    width: 19.2px;
+    height: 19.2px;
+    padding: 8px 0 8px 12px; }
+
+.drawer {
+  height: 100%;
+  width: 80%;
+  z-index: 200;
+  left: -80%; }
+  .drawer .drawer-head {
+    height: 200px;
+    background: url("../img/aside/side_user_bg.png") no-repeat; }
+    .drawer .drawer-head img {
+      height: 80px;
+      width: 80px; }
+    .drawer .drawer-head .name {
+      font-size: 22px;
+      color: #fff; }
+    .drawer .drawer-head .id {
+      font-size: 19px;
+      margin-top: 10px;
+      color: #fff; }
+  .drawer .drawer-content {
+    background: #fff url("../img/aside/img_beijingtu.png") bottom no-repeat;
+    padding-top: 70px; }
+    .drawer .drawer-content div {
+      height: 70px;
+      width: 80%; }
+      .drawer .drawer-content div img {
+        height: 36px;
+        width: 26.8px;
+        margin-right: 36px; }
+      .drawer .drawer-content div p {
+        font-size: 20;
+        color: #454647; }
+    .drawer .drawer-content .product img {
+      width: 36px; }
+  .drawer .drawer-foot {
+    height: 60px;
+    background: #d5d1d0; }
+    .drawer .drawer-foot img {
+      width: 22px;
+      height: 24px;
+      margin-right: 36px; }
+    .drawer .drawer-foot p {
+      font-size: 21px;
+      color: #fff; }
+
+.scrollCtr {
+  width: 100%;
+  overflow: hidden; }
+  .scrollCtr .scrollBtn {
+    height: 48px;
+    color: #858383;
+    font-size: 16.8px;
+    background: #fff; }
+    .scrollCtr .scrollBtn img {
+      width: 24px;
+      height: 24px;
+      margin-right: 22px; }
+    .scrollCtr .scrollBtn .active {
+      color: #d62823; }
+    .scrollCtr .scrollBtn .scrollBar {
+      width: 50%;
+      height: 2px;
+      background: #d62823;
+      transition: left .15s; }
+  .scrollCtr .scrollList {
+    width: 200%; }
+  .scrollCtr .trans {
+    transition: transform .6s; }
+
+.listTitle {
+  height: 56px;
+  background: #c0e2fa;
+  margin-top: 12px; }
+  .listTitle div {
+    color: #383c44;
+    font-size: 18.4px; }
+
+.listCtr {
+  overflow: auto;
+  background: #e7e7ea; }
+  .listCtr .listRow {
+    height: 56px;
+    background: #fff; }
+    .listCtr .listRow div {
+      color: #64666a; }
+
+/*# sourceMappingURL=style.css.map */

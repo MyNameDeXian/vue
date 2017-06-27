@@ -1,0 +1,27 @@
+$url: '../assets/css/';
+// 公共变量
+@import '../assets/css/variables';
+// flex 布局
+@import '../assets/css/flexStyle';
+// position 定位
+@import '../assets/css/position';
+// common
+@import '../assets/css/common';
+
+// @import '../../components/style';
+
+
+// z-index: 设定
+// 200以上为alert
+// 120-199 animate
+// 120以内 固定
+
+
+
+@import './bar/headbar/headbar';
+
+@import './alert/drawer';
+
+@import './alert/applyAlert';
+
+@import './bar/tabbar/tabbar';

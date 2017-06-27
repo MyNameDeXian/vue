@@ -1,0 +1,78 @@
+//抽屉的宽度
+$drawerWidth: 80%;
+
+// head 高度
+$headHeight: 200px;
+
+// foot 高度
+$footHeight: 60px;
+$footBj: #d5d1d0;
+
+$shadeBj: #e8e8e8;
+
+$fontColor: #fff;
+
+.drawer{
+	@extend .p-a-t;
+	height: 100%;
+	width: 80%;
+	z-index: 200;
+	left: -80%;
+	.drawer-head{
+		height: $headHeight;
+		background: url('../img/aside/side_user_bg.png') no-repeat;
+		img{
+			height: 80px;
+			width: 80px;
+			// margin-left: 60px;
+			// margin-right: 36px;
+		}
+		.name{
+			font-size: 22px;
+			color: $fontColor;
+		}
+		.id{
+			font-size: 19px;
+			margin-top: 10px;
+			color: $fontColor;
+		}
+	}
+	.drawer-content{
+		background: #fff url('../img/aside/img_beijingtu.png') bottom no-repeat;
+		padding-top: 70px; 
+		div{
+			@extend .bd-b;
+			height: 70px;
+			width: 80%;
+			@extend .flex-row-aic;
+			img{
+				height: 36px;
+				width: 26.8px;
+				margin-right: 36px;
+			}
+			p{
+				font-size: 20;
+				color: #454647;
+			}
+		}
+		.product{
+			img{
+				width: 36px;
+			}
+		}
+	}
+	.drawer-foot{
+		height: $footHeight;
+		background: $footBj;
+		img{
+			width: 22px;
+			height: 24px;
+			margin-right: 36px;
+		}
+		p{
+			font-size: 21px;
+			color: $fontColor;
+		}
+	}
+}
+

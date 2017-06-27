@@ -1,0 +1,16 @@
+// 公共变量
+@import './variables';
+// flex 布局
+@import './flexStyle';
+// position 定位
+@import './position';
+// common
+@import './common';
+
+// @import '../../components/style';
+
+
+// z-index: 设定
+// 200以上为alert
+// 120-199 animate
+// 120以内 固定

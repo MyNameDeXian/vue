@@ -1,0 +1,14 @@
+.infoList{
+	padding: 0px .2rem;
+	.title{
+		font-size: .18rem;
+		color: #494b50;
+		padding-right: .2rem;
+	}
+	.info{
+		color: $activeColor;
+		font-size: .17rem;
+		height: .56rem;
+		overflow: auto;
+	}
+}

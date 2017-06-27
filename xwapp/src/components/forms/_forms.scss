@@ -1,0 +1,61 @@
+$formColor: #85878b;
+
+
+.formModel{
+	margin-left: .2rem;
+	padding-bottom: .2rem;
+	.box{
+		background: #fff;
+		border: 1px solid #cdcdcd;
+		border-radius: .07rem;
+	}
+	.bj{
+		background: $disabledBj;
+	}
+	.star{
+		width: .17rem;
+		font-size: .17rem;
+		color: $activeColor;
+		padding-left: .03rem
+	}
+	.title{
+		font-size: .17rem;
+		color: $fontColor;
+	}
+	input, textarea,select{
+		font-size: .18rem;
+		color: $formColor;
+		&.active{
+			color: #454647;
+		}
+	}
+	.inputRow{
+		.title{
+			margin: 0px .12rem;
+		}
+		input{
+			height: .43rem;
+		}
+	}
+	.selectRow{
+		.title{
+			margin: 0px .12rem;
+		}
+		select{
+			height: .43rem;
+		}
+	}
+	.texteareRow{
+		padding: .12rem .12rem .1rem;
+		.title{
+			padding-bottom: .02rem;
+			padding-left: .02rem;
+		}
+		textarea{
+			width: 100%;
+			padding: .04rem 0 0;
+		}
+		
+	}
+	
+}
