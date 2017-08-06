@@ -20,14 +20,13 @@ npm run build --report
 ```
 + node下载地址 <https://nodejs.org/en/download/>
 + npm init 创建 package.json
-+ 安装 react 
-> npm install react react-dom --save
++ 安装 react -> npm install react react-dom --save
 
 # webpack 配置
-+ 安装 webpack 
-> npm install webpack webpack-dev-server --save-dev
-
 ```bash
+# 安装 webpack 
+npm install webpack webpack-dev-server --save-dev
+
 # mac & linux package.json 里scripts 配置
 	>"scripts": {
 	    "start": "NODE_ENV=dev webpack-dev-server --progress --colors",
