@@ -17,6 +17,7 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+```
 
 + node下载地址 <https://nodejs.org/en/download/>
 + npm init 创建 package.json
